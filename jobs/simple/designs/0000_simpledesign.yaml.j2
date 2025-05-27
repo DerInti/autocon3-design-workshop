@@ -2,10 +2,10 @@
 manufacturers:
   - "!create_or_update:name": "{{ manufacturer }}"
     description: "{{ manufacturer }} Systems"
-  platforms:
-    - "!create_or_update:name": "Cisco IOS"
-      manufacture_name: "{{ manufacturer }}"
-      network_driver: "cisco_ios"
+    platforms:
+      - "!create_or_update:name": "Cisco IOS"
+        manufacture_name: "{{ manufacturer }}"
+        network_driver: "cisco_ios"
 locations:
   - "!create_or_update:name": "Greece" 
     location_type_name: "Region"
